@@ -4,7 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { ListaComponent } from './lista/lista.component';
 
 const routes: Routes = [
-  // Adicione suas rotas aqui
+  // Adicione as rotas
   {path: '', component: LoginComponent},
   {path: 'lista', component: ListaComponent},
 
