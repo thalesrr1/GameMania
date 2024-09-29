@@ -1,0 +1,32 @@
+
+/* Define o tamanho fixo do card */
+.card-product {
+    flex: 1 1 250px; 
+    max-width: 250px; 
+    box-sizing: border-box;  
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Imagem do produto */
+.card-product img {
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;  
+    object-fit: cover;  
+}
+
+.card-product h2 {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.card-product p {
+    margin: 8px 0;
+    font-size: 16px;
+}
